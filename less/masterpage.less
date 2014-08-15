@@ -1,0 +1,250 @@
+﻿/* ==========================================================================
+   masterpage styles
+   ========================================================================== */
+
+html { height: 100%; }
+body { 
+    height: 100%;
+    color: @WireFrameBlue;
+    font-family: "Gill Sans W04 Book";
+}
+
+hr {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    height: 0;
+    border-top: solid 1px @WireFrameBlue;
+    z-index: -1;
+}
+
+a:link, a:visited {
+   color: @WireFrameBlue;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+/******************** HEADER ***********************/
+header {
+    border-bottom: solid 1px @WireFrameBlue;
+    > div {
+        border-left: solid 1px @WireFrameBlue;
+        border-right: solid 1px @WireFrameBlue;
+        height: 180px;
+        margin: 0 auto;
+        width: 1020px;
+
+        > div {
+            /*border: solid 1px red;*/
+            border-right: solid 1px @WireFrameBlue;
+            box-sizing: border-box;
+            float: left;
+            height: 180px;
+            width: 510px;/*169*/
+        }
+    }
+}
+
+header > div > a {
+    background: url(../img/zach-kadish-logo.png) center center no-repeat;
+    box-sizing: border-box;
+    border-right: solid 1px @WireFrameBlue;
+    float: left;
+    height: 180px;
+    width: 340px;
+}
+
+header > div > div:last-child {
+    /*border: solid 1px red;*/
+    position: relative;
+    border-right: none;
+    width: 169px;
+}
+
+header nav {
+    border-bottom: none;
+    position: relative;
+    top: 115px;
+}
+
+/******************** TWITTER QUOTE ***********************/
+
+#twitter-quote {
+    /*border: solid 1px red;*/
+    background: #fff url(../img/twitter-bird-logo.png) center no-repeat;
+    height: 180px;
+
+    > div {
+        //border: solid 1px red;
+        color: @WireFrameBlue;
+        font-family: 'SansSerifBldFLF-Italic';
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 auto;
+        position: relative;
+        text-align: left;
+        top: 60px;
+        width: 340px;
+    }
+
+    .quote-open {
+        background: url(../img/twitter-quote-open.png) no-repeat;
+        background-size: 100%;
+        left: -25px;
+        height: 44px;
+        position: absolute;
+        top: -12px;
+        width: 56px;
+    }
+
+    .quote-close {
+        background: url(../img/twitter-quote-close.png) no-repeat;
+        background-size: 100%;
+        height: 44px;
+        position: absolute;
+        right: -25px;
+        top: -12px;
+        width: 56px;
+    }
+}
+
+/******************** Social Networks ***********************/
+
+#facebook {
+    float: left;
+    background: url(../img/facebook-icon.png) no-repeat;
+    width: 47px;
+    height: 46px;
+    margin: 0 7px 20px;
+}
+
+#linkedin {
+    float: left;
+    background: url(../img/linkedin-icon.png) no-repeat;
+    width: 47px;
+    height: 46px;
+    margin: 0 7px 0 0;
+}
+
+#twitter {
+    float: left;
+    background: url(../img/twitter-icon.png) no-repeat;
+    width: 47px;
+    height: 46px;
+    margin: 0;
+}
+
+/******************** NAV ***********************/
+nav {
+    border-bottom: solid 1px @WireFrameBlue;
+
+    > div {
+        border-left: solid 1px @WireFrameBlue;
+        border-right: solid 1px @WireFrameBlue;
+        height: 54px;
+        margin: 0 auto;
+        width: 1020px;
+
+        a {
+            border-right: solid 1px @WireFrameBlue;
+            box-sizing: border-box;
+            float: left;
+            font-size: 24px;
+            line-height: 54px;
+            text-align: center;
+            width: 170px;
+
+            &:hover {
+                background: @WireFrameLightBlue;
+                color: #fff;
+                text-decoration: none;
+            }
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+}
+
+/******************** SECTION ***********************/
+section {
+    border-bottom: solid 1px @WireFrameBlue;
+}
+
+/******************** FOOTER ***********************/
+footer { 
+    font-size: 14px;
+    //border-bottom: solid 1px @WireFrameBlue;
+
+    > div {
+        border-left: solid 1px @WireFrameBlue;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 1021px;
+    }
+}
+
+.footer-nav {
+    float: left;
+    padding: 30px 10px 30px 30px;
+
+    > div {
+        float: left;
+        width: 115px;
+        height: auto;
+        padding: 0;
+        line-height: 16px;
+    }
+}
+
+.footer-nav > div:first-child {
+    width: 75px;
+}
+
+.footer-nav > div:last-child {
+    width: 90px;
+}
+
+footer > div > div {
+    border-right: solid 1px @WireFrameBlue;
+    float: left;
+    height: 101px;
+    padding: 30px 20px 30px;
+    width: 299px;
+}
+
+footer > div > div:last-child {
+    width: 300px;
+}
+
+footer {
+
+    img {
+        float: left;
+    }
+
+    .address {
+        float: left;
+        padding: 5px 0 0 20px;
+    }
+
+    .vpm-logo {
+        display: block;
+        background: url(../img/vpm-logo.png) no-repeat;
+        margin: 0 auto;
+        width: 240px;
+        height: 81px;
+    }
+
+    .vpm-tag-line {
+        padding: 0 0 0 30px;
+        text-align: center;
+    }
+
+}
+

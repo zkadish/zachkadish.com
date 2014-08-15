@@ -1,0 +1,185 @@
+
+#quotePaintingText
+{
+	margin: 0 auto;
+	width: 380px;
+	font-family: Helvetica, Century Gothic, Arial;
+	font-size: 18px;
+	line-height: 20px;
+	/*border: solid 1px green;*/
+}
+
+#paintingText
+{
+	display: inline-block;
+	width: 360px;
+	/*border: solid 1px blue;*/
+}
+
+/*************** painters thumbs **************/
+
+#collectionsWrapper
+{
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 660px;
+	height: 500px;
+	/*border: solid 1px red;*/
+}
+
+.painterWrapper
+{
+	float: left;
+	cursor: pointer;
+	/*border: solid 1px green;*/
+}
+
+#verticalSpacer
+{
+	clear: both;
+	height: 20px;
+	/*border: solid 1px red;*/
+}
+
+.horizontalSpacer
+{
+	float: left;
+	width: 20px;
+	height: 150px;
+	/*border: solid 1px red;*/
+}
+
+.numberWrapper
+{
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+	/*width: 20px;
+	height: 20px;*/
+}
+
+#painter_01
+{
+	background: url(../images/painters/painter_01.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_02
+{
+	background: url(../images/painters/painter_02.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_03
+{
+	background: url(../images/painters/painter_03.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_04
+{
+	background: url(../images/painters/painter_04.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_05
+{
+	background: url(../images/painters/painter_05.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_06
+{
+	background: url(../images/painters/painter_06.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_07
+{
+	background: url(../images/painters/painter_07.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_08
+{
+	background: url(../images/painters/painter_08.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_09
+{
+	background: url(../images/painters/painter_09.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_10
+{
+	background: url(../images/painters/painter_10.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_11
+{
+	background: url(../images/painters/painter_11.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#painter_12
+{
+	background: url(../images/painters/painter_12.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+
+
+

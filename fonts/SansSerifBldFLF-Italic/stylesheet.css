@@ -1,0 +1,10 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family:"SansSerifBldFLF-Italic";
+	src:url("SansSerifBldFLF-Italic.eot?") format("eot"),
+		url("SansSerifBldFLF-Italic.woff") format("woff"),
+		url("SansSerifBldFLF-Italic.ttf") format("truetype"),
+		url("SansSerifBldFLF-Italic.svg#SansSerifBldFLF-Italic") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}

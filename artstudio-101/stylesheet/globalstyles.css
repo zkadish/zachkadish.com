@@ -1,0 +1,262 @@
+/*	--------------------------------------------------
+	Global Reset & Standards
+	-------------------------------------------------- */
+	html, body { margin: 0; padding: 0; }
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, img, small, strike, strong, em, sub, sup, tt, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td, section { margin: 0; padding: 0; border: 0; font-weight: normal; font-style: normal; font-size: 100%; line-height: 1; font-family: inherit; text-align: left; }
+	table { border-collapse: collapse; border-spacing: 0; }
+	ol, ul { list-style: none; }
+
+	body { background: #fff; font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; text-shadow: 0 0 1px rgba(0,0,0,0.01); color: #555; }
+
+/*	--------------------------------------------------
+	Unique Styles
+	-------------------------------------------------- */
+a
+{
+	color: #928f8b;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+	
+#siteWrapper
+{
+	postion: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 800px;
+	/*border: solid 1px red;*/
+}	
+/********************** Header Content *******************/	
+#headerWrapper
+{
+	padding-top: 40px;
+	/*border: solid 1px red;*/
+}
+
+.logo
+{
+	background: url(../images/artstudio101.png) no-repeat;
+	width: 255px;
+	height: 60px;
+	/*border: solid 1px blue;*/
+}
+/********************** Main Menu ******************/
+#tabMenuContainer
+{
+	position: relative;
+	height: 34px;
+	z-index: 1;
+	/*border: solid 1px green;*/
+}
+
+#about
+{
+	cursor: pointer;
+	float: left;
+	background: url(../images/aboutBtn.png) no-repeat;
+	width: 117px;
+	height: 35px;
+	/*border: solid 1px red;*/
+}
+
+#about:hover
+{
+	background: url(../images/aboutBtnOver.png) no-repeat;
+}
+
+#artMenu
+{
+	cursor: pointer;
+	float: left;
+	background: url(../images/artMenuBtn.png) no-repeat;
+	width: 117px;
+	height: 35px;
+}
+
+#artMenu:hover
+{
+	background: url(../images/artMenuBtnOver.png) no-repeat;
+}
+
+#clients
+{
+	cursor: pointer;
+	float: left;
+	background: url(../images/clientsBtn.png) no-repeat;
+	width: 117px;
+	height: 35px;
+}
+
+#clients:hover
+{
+	background: url(../images/clientsBtnOver.png) no-repeat;
+}
+
+/*#consulting
+{
+	cursor: pointer;
+	float: left;
+	background: url(../images/consultingBtn.png) no-repeat;
+	width: 117px;
+	height: 35px;
+	border: solid 1px red;
+}*/
+
+/*#consulting:hover
+{
+	background: url(../images/consultingBtnOver.png) no-repeat;
+	border: solid 1px #e7e6e4;
+}*/
+
+#team
+{
+	cursor: pointer;
+	float: left;
+	background: url(../images/teamBtn.png) no-repeat;
+	width: 117px;
+	height: 35px;
+}
+
+#team:hover
+{
+	background: url(../images/teamBtnOver.png) no-repeat;
+}
+
+/*#framing
+{
+	cursor: pointer;
+	float: left;
+	background: url(../images/framingBtn.png) no-repeat;
+	width: 117px;
+	height: 35px;
+	border: solid 1px red;
+}*/
+
+/*#framing:hover
+{
+	background: url(../images/framingBtnOver.png) no-repeat;
+	border: solid 1px #e7e6e4;
+}*/
+
+#services
+{
+	cursor: pointer;
+	float: left;
+	background: url(../images/servicesBtn.png) no-repeat;
+	width: 117px;
+	height: 35px;
+}
+
+#services:hover
+{
+	background: url(../images/servicesBtnOver.png) no-repeat;
+}
+
+#contact
+{
+	cursor: pointer;
+	float: right;
+	background: url(../images/contactBtn.png) no-repeat;
+	width: 117px;
+	height: 35px;
+}
+
+#contact:hover
+{
+	background: url(../images/contactBtnOver.png) no-repeat;
+}
+/********************** End - Main Menu ******************/
+.divider
+{
+	position: relative;
+	background: url(../images/divider.jpg) no-repeat;
+	width: 800px;
+	height: 1px;
+}
+/*********************** Page Content *********************/
+#contentWrapper
+{
+	display: inline-block;
+	margin: 0 auto;
+	width: 800px;
+	/*border: solid 1px blue;*/
+}
+
+/*********************** End - Page Content *********************/
+/********************** Art Menu Quote **************/
+#quoteWrapper
+{
+	/*height: 88px;*/
+	padding-bottom: 25px;
+	/*border: solid 1px red;*/
+}
+
+#quoteTopSpacer
+{
+	height: 20px;
+	/*border: solid 1px red;*/
+}
+
+#positionOpenQuote
+{
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	/*border: solid 1px red;*/
+}
+
+#openQuote
+{
+	position: absolute;
+	top: -7px;
+	left: -12px;
+	background: url(../images/openQuote.png) no-repeat;
+	width: 33px;
+	height: 27px;
+	/*border: solid 1px green;*/
+}
+
+#positionCloseQuote
+{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 20px;
+	/*border: solid 1px green;*/
+}
+
+#closeQuote
+{
+	position: relative;
+	top: -7px;
+	left: -10px;
+	background: url(../images/closeQuote.png) no-repeat;
+	width: 33px;
+	height: 27px;
+	/*border: solid 1px red;*/
+}
+/********************** End - Art Menu Quote **************/
+/********************** End - Header Content *******************/	
+
+/********************* footer Content ********************/
+#bottomSpacer
+{
+	height: 10px;
+	/*border: solid 1px green;*/
+}
+
+.footerText
+{
+	color: #928f8b;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 10px;
+}
+/********************* End - Footer Content ********************/

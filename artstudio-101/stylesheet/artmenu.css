@@ -1,0 +1,167 @@
+
+#artMenuQuoteContainer
+{
+	margin: 0 auto;
+	width: 480px;
+	font-family: Helvetica, Century Gothic, Arial;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+	/*border: solid 1px green;*/
+}
+
+#artMenuQuoteText
+{
+	display: inline-block;
+	width: 480px;
+	/*border: solid 1px blue;*/
+}
+
+
+#collectionsWrapper
+{
+	margin: 0 auto;
+	width: 460px;
+	height: 490px;
+	/*border: solid 1px red;*/
+}
+
+#paintingWrapper
+{
+	float: left;
+	/*border: solid 1px green;*/
+}
+
+#paintingWrapper:hover #paintingTab
+{
+	background: url(../images/artMenu/paintingTabOver.png) no-repeat;
+}
+
+#paintingTab
+{
+	display: block;
+	background: url(../images/artMenu/paintingTab.png) no-repeat;
+	width: 210px;
+	height: 25px;
+	/*border: solid 1px green;*/
+}
+
+#paintingImage
+{
+	display: block;
+	background: url(../images/artMenu/paintingTabImage.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 210px;
+	height: 210px;
+	/*border: solid 1px green;*/
+}
+
+.horizontalSpacer
+{
+	float: left;
+	width: 40px;
+	height: 235px;
+	/*border: solid 1px red;*/
+}
+
+#photographyWrapper
+{
+	float: left;
+	/*border: solid 1px green;*/
+}
+
+#photographyWrapper:hover #photographyTab
+{
+	background: url(../images/artMenu/photographyTabOver.png) no-repeat;
+}
+
+#photographyTab
+{
+	display: block;
+	background: url(../images/artMenu/photographyTab.png) no-repeat;
+	width: 210px;
+	height: 25px;
+	/*border: solid 1px green;*/
+}
+
+#photographyImage
+{
+	display: block;
+	background: url(../images/artMenu/photographyTabImage.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 210px;
+	height: 210px;
+	/*border: solid 1px green;*/
+}
+
+#verticalSpacer
+{
+	clear: both;
+	height: 10px;
+	/*border: solid 1px red;*/
+}
+
+#mixedMediaWrapper
+{
+	float: left;
+	/*border: solid 1px green;*/
+}
+
+#mixedMediaWrapper:hover #mixedMediaTab
+{
+	background: url(../images/artMenu/mixedMediaTabOver.png) no-repeat;
+}
+
+#mixedMediaTab
+{
+	display: block;
+	background: url(../images/artMenu/mixedMediaTab.png) no-repeat;
+	width: 210px;
+	height: 25px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMediaImage
+{
+	display: block;
+	background: url(../images/artMenu/mixedMediaTabImage.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 210px;
+	height: 210px;
+	/*border: solid 1px green;*/
+}
+
+#sculptureWrapper
+{
+	float: left;
+	/*border: solid 1px green;*/
+}
+
+#sculptureWrapper:hover #sculptureTab
+{
+	background: url(../images/artMenu/sculptureTabOver.png) no-repeat;
+}
+
+#sculptureTab
+{
+	display: block;
+	background: url(../images/artMenu/sculptureTab.png) no-repeat;
+	width: 210px;
+	height: 25px;
+	/*border: solid 1px green;*/
+}
+
+#sculptureImage
+{
+	display: block;
+	background: url(../images/artMenu/sculptureTabImage.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 210px;
+	height: 210px;
+	/*border: solid 1px green;*/
+}
+

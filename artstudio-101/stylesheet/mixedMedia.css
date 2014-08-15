@@ -1,0 +1,181 @@
+
+#quoteMixedMediaText
+{
+	margin: 0 auto;
+	width: 430px;
+	font-family: Helvetica, Century Gothic, Arial;
+	font-size: 18px;
+	line-height: 20px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMediaText
+{
+	display: inline-block;
+	width: 410px;
+	/*border: solid 1px blue;*/
+}
+
+/*************** Mixed Media thumbs **************/
+
+#collectionsWrapper
+{
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 660px;
+	height: 500px;
+	/*border: solid 1px red;*/
+}
+
+.mixedMediaWrapper
+{
+	float: left;
+	cursor: pointer;
+	/*border: solid 1px green;*/
+}
+
+#verticalSpacer
+{
+	clear: both;
+	height: 18px;
+	/*border: solid 1px red;*/
+}
+
+.horizontalSpacer
+{
+	float: left;
+	width: 18px;
+	height: 148px;
+	/*border: solid 1px red;*/
+}
+
+.numberWrapper
+{
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+	/*width: 20px;
+	height: 20px;*/
+}
+
+#mixedMedia_01
+{
+	background: url(../images/mixedMedia/mixedMedia_01.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_02
+{
+	background: url(../images/mixedMedia/mixedMedia_02.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_03
+{
+	background: url(../images/mixedMedia/mixedMedia_03.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_04
+{
+	background: url(../images/mixedMedia/mixedMedia_04.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_05
+{
+	background: url(../images/mixedMedia/mixedMedia_05.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_06
+{
+	background: url(../images/mixedMedia/mixedMedia_06.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_07
+{
+	background: url(../images/mixedMedia/mixedMedia_07.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_08
+{
+	background: url(../images/mixedMedia/mixedMedia_08.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_09
+{
+	background: url(../images/mixedMedia/mixedMedia_09.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_10
+{
+	background: url(../images/mixedMedia/mixedMedia_10.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_11
+{
+	background: url(../images/mixedMedia/mixedMedia_11.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}
+
+#mixedMedia_12
+{
+	background: url(../images/mixedMedia/mixedMedia_12.jpg) no-repeat;
+	background-color: #000;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	/*border: solid 1px green;*/
+}

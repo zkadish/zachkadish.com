@@ -1,0 +1,44 @@
+﻿
+/* ==========================================================================
+   Author's custom styles - About page
+   ========================================================================== */
+article {
+	background: url(../img/footer-gradient.png) no-repeat;
+}
+
+.page-about-btn {
+	float: left;
+    background: url(../img/pages-menu/about-btn-active.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding-top: 20.31%;
+}
+
+.page-contact-uat-btn {
+	float: left;
+    background: url(../img/pages-menu/contact-uat-btn.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding-top: 20.31%;
+}
+
+.page-request-info-btn {
+	float: left;
+    background: url(../img/pages-menu/request-info-btn.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding-top: 20.31%;
+}
+
+.page-degrees-btn {
+	float: left;
+    background: url(../img/pages-menu/degrees-btn.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding-top: 20.31%;
+}
+
+.about-text {
+	color: #e3e3e3;
+	padding: 40px;
+}

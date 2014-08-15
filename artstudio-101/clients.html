@@ -1,0 +1,168 @@
+
+    <link rel="stylesheet" type="text/css" href="stylesheet/clients.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheet/orbit-1.2.3.css" />
+    <script language="javascript" type="text/javascript" src="javascript/jquery.orbit-1.2.3.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#clients").css("background", "url(images/clientsBtnHit.png)");
+		});
+	</script>
+
+	<!--[if IE]>
+		<style type="text/css">
+			.timer { display: none !important; }
+			div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+		</style>
+	<![endif]-->
+		
+	<!-- Run the orbit plugin -->
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#featured').orbit({
+				animation: 'horizontal-push',                  // fade, horizontal-slide, vertical-slide, horizontal-push
+				animationSpeed: 800,                // how fast animtions are
+				timer: true, 			 // true or false to have the timer
+				advanceSpeed: 4000, 		 // if timer is enabled, time between transitions 
+				pauseOnHover: false, 		 // if you hover pauses the slider
+				startClockOnMouseOut: false, 	 // if clock should start on MouseOut
+				startClockOnMouseOutAfter: 1000, 	 // how long after MouseOut should the timer start again
+				directionalNav: true, 		 // manual advancing directional navs
+				captions: true, 			 // do you want captions?
+				captionAnimation: 'fade', 		 // fade, slideOpen, none
+				captionAnimationSpeed: 800, 	 // if so how quickly should they animate in
+				bullets: false,			 // true or false to activate the bullet navigation
+				bulletThumbs: false,		 // thumbnails for the bullets
+				bulletThumbLocation: '',		 // location from this file where thumbs will be
+				afterSlideChange: function(){} 	 // empty function 
+			});
+		});
+	</script>
+
+
+    <div id="quoteWrapper">
+        <div id="quoteTopSpacer"></div>
+        <div id="clientsQuoteContainer">
+            <div id="clientsQuoteText">
+                <div id="positionOpenQuote">
+                    <div id="openQuote"></div>
+                </div>
+                We understand the impact of the art as it is viewed in relationship to the clients image and to the overall interior asthetic.
+                <div id="positionCloseQuote">
+                    <div id="closeQuote"></div>
+                </div>
+            </div>
+                    
+        </div>    
+    </div>
+    
+    <div class="container">
+	
+    <!-- =======================================
+    THE ACTUAL ORBIT SLIDER CONTENT 
+    ======================================= -->
+
+		<div id="featured"> 
+        	<img src="images/clients/CoStar-Phoenix.jpg" data-caption="#htmlCaption24" style="width: 500px;" />
+        	<img src="images/clients/Nelsen-Partners-01.jpg" data-caption="#htmlCaption21" style="width: 500px;" />
+            <img src="images/clients/Nelsen-Partners-02.jpg" data-caption="#htmlCaption22" style="width: 500px;" />
+           	<img src="images/clients/Nelsen-Partners-03.jpg" data-caption="#htmlCaption23" style="width: 500px;" />
+        	<img src="images/clients/morrison-hecker-01.jpg" data-caption="#htmlCaption18" style="width: 500px;" />
+            <img src="images/clients/morrison-hecker-02.jpg" data-caption="#htmlCaption19" style="width: 500px;" />
+           	<img src="images/clients/morrison-hecker-03.jpg" data-caption="#htmlCaption20" style="width: 500px;" />
+        	<img src="images/clients/Kincaids01.jpg" data-caption="#htmlCaption16" style="width: 500px;" />
+            <img src="images/clients/Kincaids02.jpg" data-caption="#htmlCaption17" style="width: 500px;" />
+        	<img src="images/clients/officeSpace02.jpg" data-caption="#htmlCaption01" style="width: 500px;" />
+            <img src="images/clients/officeSpace01.jpg" data-caption="#htmlCaption02" style="width: 500px;" />
+            <img src="images/clients/medicalCenter01.jpg" data-caption="#htmlCaption03" style="width: 500px;" />
+            <img src="images/clients/medicalCenter02.jpg" data-caption="#htmlCaption04" style="width: 500px;" />
+        	<img src="images/clients/BannerHealthClinics02.jpg" data-caption="#htmlCaption05" style="width: 500px;" />
+            <img src="images/clients/BannerHealthClinics03.jpg" data-caption="#htmlCaption06" style="width: 500px;" />
+            <img src="images/clients/BannerHealthClinics01.jpg" data-caption="#htmlCaption07" style="width: 500px;" />
+            <img src="images/clients/wellsFolfResort.jpg" data-caption="#htmlCaption08" style="width: 500px;" />
+            <img src="images/clients/blueCrossShield_01.jpg" data-caption="#htmlCaption09" style="width: 500px;" />
+            <img src="images/clients/blueCrossShield_02.jpg" data-caption="#htmlCaption10" style="width: 500px;" />
+            <img src="images/clients/villageHealthClub.jpg" data-caption="#htmlCaption11" style="width: 500px;" />
+            <img src="images/clients/medicalOfficeGensler.jpg" data-caption="#htmlCaption12" style="width: 500px;" />
+            <img src="images/clients/EddieVsAz_01.jpg" data-caption="#htmlCaption13" style="width: 500px;" />
+            <img src="images/clients/EddieVsAz_02.jpg" data-caption="#htmlCaption14" style="width: 500px;" />
+            <img src="images/clients/FrankAndAlberts.jpg" data-caption="#htmlCaption15" style="width: 500px;" />
+		</div>
+        
+		<!-- Captions for Orbit -->
+        
+        <span class="orbit-caption" id="htmlCaption01">
+        	<strong>Commercial Office Space<br />Form Design Studio</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption02">
+        	<strong>Commercial Office Space<br />Form Design Studio</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption03">
+        	<strong>Mercy Gilbert Medical Center<br />Brandt Design Group Inc.</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption04">
+        	<strong>Mercy Gilbert Medical Center<br />Brandt Design Group Inc.</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption05">
+        	<strong>Banner Health Clinics, AZ<br />Smith Group</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption06">
+        	<strong>Banner Health Clinics, AZ<br />Smith Group</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption07">
+        	<strong>Banner Health Clinics, AZ<br />Smith Group</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption08">
+        	<strong>Indian Wells Gold Resort, CA<br />Emiko Design</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption09">
+        	<strong>Blue Cross Blue Shield - Corporate, AZ<br />Orcutt Winslow Partnership</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption10">
+        	<strong>Blue Cross Blue Shield - Corporate, AZ<br />Orcutt Winslow Partnership</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption11">
+        	<strong>Village Health Clubs and Spas, AZ<br />Form Design Studio</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption12">
+        	<strong>Medical Office Space<br />Gensler</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption13">
+        	<strong>Eddie V's, AZ<br />Henrich Design</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption14">
+        	<strong>Eddie V's, AZ<br />Henrich Design</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption15">
+        	<strong>Frank and Alberts, AZ<br />Testani Design Troupe</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption16">
+        	<strong>Kincaids Restaurants<br />Bar Napkin Productions</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption17">
+        	<strong>Kincaids Restaurants<br />Bar Napkin Productions</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption18">
+        	<strong>Stinson, Morrison & Hecker LLP<br />Downtown Phoenix, AZ</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption19">
+        	<strong>Stinson, Morrison & Hecker LLP<br />Downtown Phoenix, AZ</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption20">
+        	<strong>Stinson, Morrison & Hecker LLP<br />Downtown Phoenix, Az</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption21">
+        	<strong>Ak-Chin Entertainment Center<br />Nelsen Partners</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption22">
+        	<strong>Ak-Chin Entertainment Center<br />Nelsen Partners</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption23">
+        	<strong>Ak-Chin Entertainment Center<br />Nelsen Partners</strong>
+       	</span>
+        <span class="orbit-caption" id="htmlCaption24">
+        	<strong>CoStar-Phoenix</strong>
+       	</span>
+	</div>
+
+

@@ -1,0 +1,21 @@
+
+
+#clientsQuoteContainer
+{
+	margin: 0 auto;
+	width: 560px;
+	font-family: Helvetica, Century Gothic, Arial;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+	/*font-weight: bold;*/
+	/*border: solid 1px green;*/
+}
+
+
+#clientsQuoteText
+{
+	display: inline-block;
+	width: 540px;
+	/*border: solid 1px blue;*/
+}

@@ -1,0 +1,57 @@
+
+
+#teamQuoteContainer
+{
+	margin: 0 auto;
+	width: 700px;
+	font-family: Helvetica, Century Gothic, Arial;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+	/*border: solid 1px green;*/
+}
+
+#teamQuoteText
+{
+	display: inline-block;
+	width: 680px;
+	/*border: solid 1px blue;*/
+}
+
+#ContentWrapper
+{
+	padding: 5px 60px;
+	/*border: solid 1px blue;*/
+}
+
+.teamMemberWrapper
+{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5px;
+	/*border: solid 1px blue;*/
+}
+
+.teamMemberImage
+{
+	float: left;
+	background-color: #999;
+	margin-right: 10px;
+	width: 80px;
+	height: 100px;
+	/*border: solid 1px red;*/
+}
+
+.teamMemberText
+{
+	float: left;
+	display: inline-block;
+	width: 580px;/*590px*/
+	/*border: solid 1px green;*/
+}
+
+.teamName
+{
+	color: #000;
+	font-weight: bold;
+}

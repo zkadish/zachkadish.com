@@ -1,0 +1,155 @@
+﻿
+/* ==========================================================================
+   Author's custom styles - Degrees page
+   ========================================================================== */
+
+h3 { margin: 0; }/**/
+
+hr {
+	border-top: solid 1px #fff;
+	margin: 3px 0 15px 0;
+	opacity: .25;
+}
+
+article {
+	background: url(../img/footer-gradient.png) no-repeat;
+}
+
+article a:link, article a:visited, article a:hover {
+	color: #fff;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.page-about-btn {
+	float: left;
+    background: url(../img/pages-menu/about-btn.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding-top: 20.31%;
+}
+
+.page-contact-uat-btn {
+	float: left;
+    background: url(../img/pages-menu/contact-uat-btn.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding-top: 20.31%;
+}
+
+.page-request-info-btn {
+	float: left;
+    background: url(../img/pages-menu/request-info-btn.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding-top: 20.31%;
+}
+
+.page-degrees-btn {
+	float: left;
+    background: url(../img/pages-menu/degrees-btn-active.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    padding-top: 20.31%;
+}
+
+.about-text {
+	color: #e3e3e3;
+	padding: 40px;
+}
+
+.link-container {
+	display: block;
+	position: relative;
+	background: rgba(256,256,256,.15);
+	margin-bottom: 20px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+	border: solid 1px #fff;
+}
+
+.link-container:last-child {
+	margin-bottom: 0;
+}
+
+.link-container a:link, .degree-btn {
+	position: relative;
+	display: block;
+	max-width: 540px;
+	padding: 10px;
+	font-size: 1.17em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.link-container span {
+	position: absolute;
+	top: -4px;
+	right: 0;
+	width: 56px;
+	height: 55px;
+}
+
+.plus-icon {
+	background: url(../img/forms/plus-icon.png);
+}
+
+.minus-icon {
+	background: url(../img/forms/minus-icon.png);
+}
+
+.link-style {
+	background: rgba(256,256,256,.15);
+	display: block;
+	max-width: 540px;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+	border: solid 1px #fff;
+}
+
+.degree-container {
+	width: 100%;
+	height: auto;
+	/*border: solid 1px red;*/
+}
+
+.degree {
+	margin: 0 20px 15px 20px;
+}
+
+.degree:last-child {
+	margin: 0 20px 15px 20px;
+}
+
+@media all and (max-width: 400px) {
+	
+	.about-text {
+	padding: 40px 20px;
+	}
+
+}
+
+@media all and (max-width: 350px) {
+	
+	.about-text {
+	padding: 40px 10px;
+	}
+
+	.link-container a:link, .degree-btn {
+		position: relative;
+		display: block;
+		max-width: 540px;
+		padding: 10px;
+		font-size: 1em;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+}
+
+
+
+
+
+

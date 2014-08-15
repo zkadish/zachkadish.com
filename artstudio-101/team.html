@@ -1,0 +1,101 @@
+
+    <link rel="stylesheet" type="text/css" href="stylesheet/team.css" />
+    
+    <script type="text/javascript">
+        function ColeUrlacher() {
+            if (document.getElementById("teamName01").innerHTML == "Faye Urlacher") {
+                document.getElementById("FayeUrlacher").innerHTML = "<img src=\"images/team/cole.jpg\" alt=\"Cole\" border=\"0\" />";
+                document.getElementById("teamMemberText01").innerHTML = "<span id=\"teamName01\" class=\"teamName\">Cole</span>";
+            }else {
+                document.getElementById("FayeUrlacher").innerHTML = "<img src=\"images/team/faye.jpg\" alt=\"Faye Urlacher\" border=\"0\" />";
+                document.getElementById("teamMemberText01").innerHTML = "<span id=\"teamName01\" class=\"teamName\">Faye Urlacher</span>" +
+                " launched artstudio 101 in 2000. Working as an art consultant in the valley for over 10 years prior;" + 
+                "provided the necessary ideals for a new and innovative art and framing resource. Faye’s background in design," +
+                "collaborated with her industry knowledge, is an essential component for artstudio’s successful project outcomes.";
+            }
+        }
+    </script>
+    
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$("#team").css("background", "url(images/teamBtnHit.png)");
+		});
+	</script>
+
+    <div id="quoteWrapper">
+        <div id="quoteTopSpacer"></div>
+        <div id="teamQuoteContainer">
+            <div id="teamQuoteText">
+                <div id="positionOpenQuote">
+                    <div id="openQuote"></div>
+                </div>
+                <!-- Our art consultants all have experience in the design and art community which can assist 
+                in the collaborative process creating a unique art program for each and every project. -->
+                Our art consultants have experience in the design and art community which assists<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in the collaborative process creating a unique art program for every project.
+                <div id="positionCloseQuote">
+                    <div id="closeQuote"></div>
+                </div>
+            </div>
+                    
+        </div>    
+    </div>
+
+    <div id="ContentWrapper">
+        
+        <div class="teamMemberWrapper">
+            <div id="FayeUrlacher" class="teamMemberImage" onClick="ColeUrlacher();" style="cursor: pointer;">
+                <img src="images/team/faye.jpg" alt="Faye Urlacher" border="0" />
+            </div>
+            <div id="teamMemberText01" class="teamMemberText">
+                <span id="teamName01" class="teamName">Faye Urlachertest</span> launched artstudio 101 in 2000. Working as an art consultant in the valley for over 10 years prior, 
+                provided the necessary ideals for a new and innovative art and framing resource. Faye’s background in design, 
+                collaborated with her industry knowledge, is an essential component for artstudio’s successful project outcomes.
+            </div>
+        </div>
+        
+        <div class="teamMemberWrapper">
+            <div class="teamMemberImage">
+                <img src="images/team/jessica.jpg" alt="Jessica Berghoff" border="0" />
+            </div>
+            <div class="teamMemberText">
+                <span class="teamName">Jessica Berghoff</span> has consulted with artstudio 101 since 2002. Throughout the years, Jess has been lead consultant on many 
+                independent, commercial and residential projects. Her studies in elementary education along with an artistic background add 
+                another beneficial layer to artstudio’s project team.
+            </div>
+        </div>
+        
+        <div class="teamMemberWrapper">
+            <div class="teamMemberImage">
+                <img src="images/team/mita.jpg" alt="Mita Patel" border="0" />
+            </div>
+            <div class="teamMemberText">
+                <span class="teamName">Mita Patel</span> is the newest member to the artstudio 101 team. Her degree in architecture and previous experience 
+                working for several hospitality development companies provide a unique perspective on design. Mita has extensive knowledge of all stages of 
+                the building design process which ensures that each project is thoroughly executed.
+            </div>
+        </div>
+        
+        <div class="teamMemberWrapper">
+            <div class="teamMemberImage">
+                <img src="images/team/jennifer.jpg" alt="Jennifer Conroy" border="0" />
+            </div>
+            <div class="teamMemberText">
+                <span class="teamName">Jennifer Conroy</span> has been a lead consultant with artstudio 101 since employment in 2001. She has consulted 
+                on many large hospitality projects as well as a variety of both commercial and residential work. <!-- Jenn’s experience and capabilities always lead 
+                to a successful project.--> Jenn's degree in photography has added the knowledge and experience that leads to a successful project.
+            </div>
+        </div>
+        
+        <div class="teamMemberWrapper" style="margin-bottom: 0px;">
+            <div class="teamMemberImage">
+                <img src="images/team/Emily.jpg" alt="Emily Havens" border="0" />
+            </div>
+            <div class="teamMemberText">
+                <span class="teamName">Emily Havens</span> has been an integral part of artstudio 101 since 2005. She is a constant in the studio and keeps all projects running 
+                smoothly from inception to installation. Emily’s expertise in framing plays a large role to insure our clients with the highest quality 
+                of framing on both contract and custom orders so every project has been executed as intended.
+            </div>
+        </div><!-- -->
+        
+    </div>

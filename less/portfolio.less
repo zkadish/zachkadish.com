@@ -1,0 +1,155 @@
+﻿
+#portfolio {
+
+    #protfolio-btn {
+        background: @WireFrameLightBlue;
+        color: #fff;
+    }
+    /******************** ACTION BUTTONS ***********************/
+    .action-btns {
+        border-bottom: solid 1px @WireFrameBlue; /**/
+        > nav {
+            border-bottom: none;
+            border-left: solid 1px @WireFrameBlue;
+            border-right: solid 1px @WireFrameBlue;
+            height: 54px;
+            margin: 0 auto;
+            width: 1020px;
+        }
+    }
+
+        .action-btns > nav a {
+            float: left;
+            width: 339px;
+            line-height: 54px;
+            font-size: 24px;
+            text-align: center;
+            border-right: solid 1px @WireFrameBlue;
+        }
+
+            .action-btns > nav a:hover {
+                text-decoration: none;
+            }
+
+            .action-btns > nav a:last-child {
+                border-right: none;
+            }
+    /******************** ACTION TEXT ***********************/
+    .action-text {
+        border-bottom: solid 1px @WireFrameBlue;
+
+        > div {
+            border-left: solid 1px @WireFrameBlue;
+            border-right: solid 1px @WireFrameBlue;
+            //height: 152px;
+            margin: 0 auto;
+            width: 1020px;
+        }
+    }
+
+        .action-text > div div {
+            float: left;
+            width: 239px; /*339*/
+            //height: 140px; /*129*/
+            padding: 12px 50px;
+            font-size: 18px;
+            font-weight: bold;
+            border-right: solid 1px @WireFrameBlue;
+        }
+
+            .action-text > div div:last-child {
+                border-right: none;
+            }
+    /******************** PORTFOLIO CONTENT ***************/
+    .portfolio-content {
+        //border-bottom set on section in masterpage.less
+        > div {
+            border-left: solid 1px @WireFrameBlue;
+            border-right: solid 1px @WireFrameBlue;
+            //height: 152px;
+            margin: 0 auto;
+            padding: 100px 0;
+            width: 1020px;
+
+            .column-left {
+                //border: solid 1px red;
+                box-sizing: border-box;
+                float: left;
+                width: 40%;
+
+                div {
+                    width: 340px;
+                    float: right;
+                    margin: 40px 0 0 0;
+                    font-size: 22px;
+
+                    h1 {
+                        font-size: 28px;
+                        margin: 0;
+                        text-transform: uppercase;
+                    }
+
+                    a {
+                        display: block;
+                        margin: 20px auto 0;
+                        width: 85px;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .column-right {
+                //border: solid 1px red;
+                box-sizing: border-box;
+                float: left;
+                width: 60%;
+
+                div {
+                    background: url(../img/portfolio/uat-mobile-wireframe-blue.png) no-repeat;
+                    height: 859px;
+                    margin: 0 0 0 45px;
+                    width: 500px;
+                }
+            }
+
+            &:nth-child(3) {
+
+                .column-left {
+                    //border: solid 1px red;
+                    width: 35%;
+                    div {
+                        //border: solid 1px green;
+                        float: none;
+                        margin: 0 auto;
+                        width: 300px;
+                        h1 {
+                            span {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                .column-right {
+                    //border: solid 1px red;
+                    width: 65%;
+
+                    div {
+                        background: url(../img/portfolio/promotions-point-wireframe-blue.png) no-repeat;
+                        height: 512px;
+                        margin: 0;
+                        width: 640px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    footer {
+        border-bottom: solid 1px @WireFrameBlue;
+    }
+}
+
+
+
+

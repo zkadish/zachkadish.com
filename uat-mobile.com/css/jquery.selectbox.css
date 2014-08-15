@@ -1,0 +1,217 @@
+
+.sbHolder {
+    position: relative;/* used in positioning the arrows */
+    max-width: 100%;/* the width of the form */
+    height: 35px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*border: solid 1px #fff;*/ /* initail border style */
+	z-index: 3;
+	/*background: #ccc;*/
+}
+
+/*.sbHolder:hover {
+    border: solid 1px #000;
+}
+.sbHolder:focus .sbSelector { }*/
+
+.sbSelector {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;/**/
+    outline: none;
+    overflow: hidden;
+    text-indent: 8px;
+    z-index: 0;
+}
+
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover {
+    color: #000;
+    outline: none;
+    text-decoration: none;
+}
+
+.sbToggle {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background: url(../img/forms/select-icons-white.png) 0 -119px no-repeat;
+    width: 30px;
+    height: 25px;
+    outline: none;
+    z-index: 1;
+}
+
+.sbToggle:focus{
+    outline: none;
+}
+
+.sbToggle:hover {
+    background: url(../img/forms/select-icons-white.png) 0 -170px no-repeat;
+}
+
+.sbToggleOpen {
+    background: url(../img/forms/select-icons-white.png) 0 -19px no-repeat;
+}
+
+.sbToggleOpen:hover {
+    background: url(../img/forms/select-icons-white.png) 0 -69px no-repeat;
+}
+
+/******* has value state ************/
+
+.sbToggleActive {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background: url(../img/forms/select-icons-black.png) 0 -119px no-repeat;
+    width: 30px;
+    height: 25px;
+    outline: none;
+    z-index: 1;
+}
+
+.sbToggleActive:focus{
+    outline: none;
+}
+
+.sbToggleActive:hover {
+    background: url(../img/forms/select-icons-black.png) 0 -170px no-repeat;
+}
+
+.sbToggleOpenActive {
+    background: url(../img/forms/select-icons-black.png) 0 -19px no-repeat;
+}
+
+.sbToggleOpenActive:hover {
+    background: url(../img/forms/select-icons-black.png) 0 -69px no-repeat;
+}
+
+/******* vallidation state ************/
+
+.sbToggleValState {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background: url(../img/forms/select-icons-red.png) 0 -119px no-repeat;
+    width: 30px;
+    height: 25px;
+    outline: none;
+    z-index: 1;
+}
+
+.sbToggleValState:focus{
+    outline: none;
+}
+
+.sbToggleValState:hover {
+    background: url(../img/forms/select-icons-red.png) 0 -170px no-repeat;
+}
+
+.sbToggleOpenValState {
+    background: url(../img/forms/select-icons-red.png) 0 -19px no-repeat;
+}
+
+.sbToggleOpenValState:hover {
+    background: url(../img/forms/select-icons-red.png) 0 -69px no-repeat;
+}
+
+/***************************************************************************/
+
+.sbHolderDisabled {
+    background-color: #3C3C3C;
+    border: solid 1px #515151;
+}
+
+.sbHolderDisabled .sbHolder { }
+
+.sbHolderDisabled .sbToggle { }
+
+/*** Options Container ***/
+.sbOptions {
+    position: absolute;
+    top: 31px;
+    left: -1px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    overflow-y: auto;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #000;
+	z-index: 1;
+}
+
+.sbOptions:hover {
+    border: solid 1px #000;
+}
+
+.sbOptions li {
+    padding: 0 7px;
+}
+
+.sbOptions a {
+    border-bottom: dotted 1px #000;
+    display: block;
+    outline: none;
+    padding: 5px 0 5px 5px;
+}
+
+/*** Option Links ***/
+.sbOptions a:link, .sbOptions a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.sbOptions a:hover, .sbOptions a:focus, .sbOptions a.sbFocus {
+    color: red;
+}
+
+/*Added this class to control the first option*/
+/*these attributes effetivly hide the option while allowing*/
+/*this is being done because it is an empty option*/
+.sbOptions li.first a {
+    border-bottom: none;
+    padding: 0;
+}
+
+.sbOptions li.last a {
+    border-bottom: none;
+}
+
+.sbOptions .sbDisabled {
+    border-bottom: dotted 1px #aaa;/*#515151*/
+    color: #aaa;/*#999*/
+    display: block;
+    padding: 7px 0 7px 3px;
+}
+
+.sbOptions .sbGroup {
+    border-bottom: dotted 1px #67a2ad;/*#515151*/
+    color: #67a2ad;/*#EBB52D*/
+    display: block;
+    font-weight: bold;
+    padding: 7px 0 7px 3px;
+}
+
+.sbOptions .sbSub{
+    padding-left: 17px;
+}
+
+/***** BROWERS COMPATIBILTY HACK *********
+/*** Removes Safari's extra padding(-webkit). ***/
+/*** Chrome and Opera also get effected ***/
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    .sbHolder {
+        width: 100%;
+    }
+
+}*/

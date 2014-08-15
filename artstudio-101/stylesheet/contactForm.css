@@ -1,0 +1,29 @@
+
+td
+{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.formLable
+{
+	margin-bottom: 5px;
+}
+
+#submitBtn
+{
+	background:url(../images/contact/sendYourMessageBtn.jpg) no-repeat;
+	border: none;
+	cursor: pointer;
+	width: 200px;
+	height: 35px;
+}
+
+#submitBtn:hover
+{
+	background:url(../images/contact/sendYourMessageBtnOver.jpg) no-repeat;
+}
+
+
+

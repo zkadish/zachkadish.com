@@ -1,0 +1,91 @@
+
+#servicesQuoteContainer
+{
+	margin: 0 auto;
+	/*margin-top: 30px;*/
+	width: 680px;
+	font-family: Helvetica, Century Gothic, Arial;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+	/*border: solid 1px green;*/
+}
+
+#servicesQuoteText
+{
+	display: inline-block;
+	width: 665px;
+	/*border: solid 1px blue;*/
+}
+
+#ContentWrapper
+{
+	margin: 0 auto;
+	padding-top: 5px;
+	width: 710px;
+	/*border: solid 1px red;*/
+}
+
+#parentList
+{
+	list-style-type: square;
+	font-size: 14px;
+	margin: 20px 0px 0px 60px;
+	/*border: solid 1px red;*/
+}
+
+.parentListItem
+{
+	padding-bottom: 10px;
+}
+
+.nestedList
+{
+	list-style-type: circle;
+	font-size: 12px;
+	margin: 10px 0px 0px 30px;
+	/*border: solid 1px red;*/
+}
+
+.nestedListItem
+{
+	margin-top: 5px;
+}
+
+#contentLeft
+{
+	float: left;
+	width: 350px;
+	/*border: solid 1px blue;*/
+}
+
+#contentRight
+{
+	float: left;
+	width: 330px;
+	margin-left: 30px;
+	/*border: solid 1px green;*/
+}
+
+#sundayMorningBtn
+{
+	display: block;
+	background: url(../images/services/sunday-moring-btn.png) no-repeat;
+	width: 319px;
+	height: 241px;
+}
+
+#sundayMorningBtn:hover
+{
+	background: url(../images/services/sunday-moring-btnOver.png) no-repeat;
+}
+
+#servicesImage
+{
+	float: right;
+	background: url(../images/services/squarePaintings02.jpg) no-repeat;
+	background-position: right;/**/
+	width: 300px;
+	height: 300px;
+	/*border: solid 1px blue;*/
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Form</title>
+<link rel="stylesheet" type="text/css" href="stylesheet/contactForm.css" />
+<script language="javascript" type="text/javascript" src="javascript/validateForm.js" ></script>
+</head>
+
+<body>
+
+	<form method="POST" action="mailer.php" onsubmit="return validateForm();">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="padding-top: 5px;">
+                        <img class="formLable" src="images/contact/yourNameLable.png" alt="" border="0"/><br /> 
+                        <input type="text" id="name" name="name" onblur="hideError();" style="width: 295px;border: solid 1px #ccc;" />
+                    </td>
+                    <td style="padding: 5px 0 0 7px;">
+                        <img class="formLable" src="images/contact/yourEmailLable.png" alt="" border="0"/><br /> 
+                        <input type="text" id="email" name="email" onblur="hideError();" style="width: 295px;border: solid 1px #ccc;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="padding-top: 10px;">
+                        <img class="formLable" src="images/contact/yourMessageLable.png" alt="" border="0"/><br />
+                        <textarea id="message" name="message" rows="3" onblur="hideError();" style="width: 600px;border: solid 1px #ccc;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                	<td id="errorMessage">
+                     	<!-- <img src="images/contact/nameError.png" alt="" border="0" /> -->
+                    </td>
+                    <td style="padding-top: 5px;text-align: right;">
+                        <!-- <div id="submitPosition"> -->
+                            <input id="submitBtn" type="submit" name="submit" value="">
+                        <!-- </div> -->
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+</body>
+</html>
